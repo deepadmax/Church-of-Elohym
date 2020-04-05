@@ -1,0 +1,90 @@
+@font-face {
+    font-family: OleoScript;
+    src: url('../fonts/OleoScript.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: RalewayHeavy;
+    src: url('../fonts/Raleway-Heavy.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: OptimusPrinceps;
+    src: url('../fonts/OptimusPrinceps.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Wenceslas;
+    src: url('../fonts/Wenceslas.ttf');
+    font-weight: normal;
+}
+
+
+
+
+
+html{
+    overflow-y: scroll;
+    height:100%;
+    background: linear-gradient(to bottom, #1e2535 0%, #0c0f13 100%) no-repeat;
+    background-color: #0c0f13;
+
+}
+
+body {
+    color: #FFFFFF;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+a[href] {
+    color: #edb223;
+}
+
+
+
+div.mainbody {
+    width:640px;
+
+    border-radius: 30px 30px 30px 30px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    text-align: center;
+    color: #0c0f13;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+
+h1 {
+    font-family: RalewayHeavy;
+    font-size:26px;
+    color: #edb223;
+}
+
+.fancy {
+    font-family: Wenceslas;
+    font-size:26px;
+    font-weight: normal;
+}
+
+.latin {
+    font-family: OptimusPrinceps;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    font-weight: normal;
+    text-align: justify;
+}
